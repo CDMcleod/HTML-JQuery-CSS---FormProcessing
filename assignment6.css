@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+	background-image:
+		linear-gradient(
+		white, green
+		);
+	font-family: Arial;
+	
+}
+
+p{
+	font-size: 14px;
+}
+
+h1 {
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	height: 45px;
+	width: 320px;
+}
+
+span {
+	color: red;
+}
+
+/*
+,,k,k,
+*/

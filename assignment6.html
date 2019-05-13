@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Assignment 6</title>
+	<link href="assignment6.css" rel="stylesheet">
+	
+	<style>
+	</style>
+    
+	<script src="jquery-1.12.1.min.js"></script>
+    <script src="assignment6.js"></script>
+	
+	<script>
+	</script>
+	  <img src="logo.jpg" style="width:304px;height:228px;">
+	  <h1>Create an Account</h1>
+	
+</head>
+<body>
+
+<form id = "custForm" action="FormProcessor.html" method="get">
+
+<h2>Your Preferences</h2>
+
+<p>Most Frequently Used Operating System:
+		
+		<select id = "OS" name = "OS" value = "">
+			<option selected disabled>Operating System</option>
+			<option value="Windows 8">Windows 8</option>
+			<option value="Windows 7">Windows 7</option>
+			<option value="Android">Android</option>
+			<option value="Mac OS">Mac OS</option>
+			<option value="Other">Other</option>
+		</select>
+	
+		Most Frequently Used Software: 
+
+		<select id = "Software" name = "Software" value = "">
+			<option selected disabled>Software</option>
+			<option value="Games">Games</option>
+			<option value="Business Applications">Business Applications</option>
+			<option value="Programming Applications">Programming Applications</option>
+			<option value="Social Networking">Social Networking</option>
+			<option value="Other">Other</option>
+		</select>
+	</p>
+
+<h2>Customer Information</h2>
+<p>*Required Information</p>
+
+<p>First Name*:
+		<input type = "Text" id = "firstName" name = "firstName"></p>
+		<span id = "fnError"></span>
+		
+		<p>Last Name*:
+		<input type = "Text" id = "lastName" name = "lastName"></p>
+		<span id = "lnError"></span>
+		
+		<p>Street Address 1*:
+		<input type = "Text" id = "address1" name = "address1"></p>
+		<span id = "address1Error"></span>
+		
+		<p>Street Address 2(not required):
+		<input type = "Text" id = "address2" name = "address2"></p>
+		<span id = "address2Error"></span>
+		
+		<p>City*:
+		<input type = "Text" id = "city" name = "city"></p>
+		<span id = "cityError"></span>
+		
+		<p>State*:
+		<input type = "Text" id = "state" name = "state"></p>
+		<span id = "stateHint"></span>
+		<span id = "stateError"></span>
+		
+		<p>Zip Code*:
+		<input type = "Text" id = "zipCode" name = "zipCode"></p>
+		<span id = "zipHint"></span>
+		<span id = "zipError"></span>
+		
+		<p>Phone*:
+		<input type = "Text" id = "phone" name = "phone"></p>
+		<span id = "phoneHint"></span>
+		<span id = "phoneError"></span>
+		
+		<p>E-Mail Address*:
+		<input type = "Text" id = "email" name = "email"></p>
+		<span id = "emailHint"></span>
+		<span id = "emailError"></span>
+		
+		<p>Payment Method*?
+		<input type="radio" id="None" name="card_type2" value="None" checked="checked">None
+		<input type="radio" id="Visa" name="card_type2" value="Visa">Visa
+		<input type="radio" id="MasterCard" name="card_type2" value="MasterCard">MasterCard
+		<input type="radio" id="AmericanExpress" name="card_type2" value="AmericanExpress">American Express</p><br>
+		<div id="log"></div>
+		
+		<p>Credit Card Number:
+		<input type = "Text" id = "cardNumber" name = "cardNumber" value = ""></p>
+		<span id = "cardHint"></span>
+		<span id = "cardError"></span>
+		
+		<p>Expiration Month:
+		<select id = "expirationMonth" name = "expirationMonth" value = "month">
+			<option selected disabled>Month</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		<span id = "monthError"></span>
+		</p>
+		<p>
+		Expiration Year:
+		<select id = "expirationYear" name = "expirationYear" value = "year">
+			<option selected disabled>Year</option>
+			<option value="2015">2015</option>
+			<option value="2016">2016</option>
+			<option value="2017">2017</option>
+			<option value="2018">2018</option>
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+		</select></p>
+		<span id = "yearError"></span>
+		
+	<p><input type="submit" id = "submit" name = "submit" value=" Submit Order"></p>
+
+
+
+
+
+</form>
+ 
+</body>
+</html>
